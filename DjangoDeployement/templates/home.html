@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}" />
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <img src="{% static 'mysite/images/Predict_obeisity.png' %}" alt="logo">
+            <ul>
+                <li><a href="{% url 'home' %}">HOME</a></li>
+                <li><a href="{% url 'prediction' %}">PREDICTION</a></li>
+                <li><a href="{% url 'result' %}">RESULTAT</a></li>
+                <li><a href="">ABOUT</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="textPart">
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, est!</h1>
+                <div class="description">
+                    <img src="{% static 'mysite/images/group_profiles.png' %}"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reiciendis hic non quis illum, excepturi laborum repellat earum? Eaque, placeat.
+                    </p>
+                </div>
+                <p class="forButton">
+                    <a href=""><button>PREDICT</button></a>
+                </p>
+            </div>
+            <div class="imagePart">
+                <img src="{% static 'mysite/images/header_img.png' %}"/>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

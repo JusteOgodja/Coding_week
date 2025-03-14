@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}" />
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <img src="{% static 'mysite/images/Predict_obeisity.png' %}" alt="logo">
+            <ul>
+                <li><a href="{% url 'home' %}">HOME</a></li>
+                <li><a href="{% url 'prediction' %}">PREDICTION</a></li>
+                <li><a href="{% url 'result' %}">RESULTAT</a></li>
+                <li><a href="">ABOUT</a></li>
+            </ul>
+        </nav>
+        <div class="result-container">
+            <h2>Résultat de la Prédiction</h2>
+            <p id="prediction-text">En attente de la prédiction...</p>
+        
+        </div>
+    </div>
+</body>
+</html>
