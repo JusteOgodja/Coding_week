@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="{% url 'home' %}">HOME</a></li>
                 <li><a href="{% url 'prediction' %}">PREDICTION</a></li>
-                <li><a href="{% url 'result' %}">RESULTAT</a></li>
+                <li><a href="{% url 'result' %}">RESULT</a></li>
                 <li><a href="{% url 'about' %}">ABOUT</a></li>
             </ul>
         </nav>
@@ -27,6 +27,31 @@
                 <p>Aucune prédiction disponible.</p>
             {% endif %}
         </div>
+        <div class="circle-container">
+            {% for label, percent in class_probabilities.items %}
+                <div class="circle" id="circle-{{ forloop.counter }}">
+                    {{ label }}<br>{{ percent }}%
+                </div>
+            {% endfor %}
+        </div>
+    
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const probabilities = {{ class_probabilities|safe }};
+                const colors = ["#4caf50", "#2196f3", "#ff9800", "#f44336", "#9c27b0", "#ffeb3b", "#795548"];
+                
+                Object.keys(probabilities).forEach((key, index) => {
+                    let percent = probabilities[key];
+                    let circle = document.getElementById(`circle-${index + 1}`);
+                    let color = colors[index % colors.length];
+                    
+                    if (circle) {
+                        circle.style.border = `10px solid ${color}`;
+                        circle.style.opacity = percent > 0 ? 1 : 0.3;
+                    }
+                });
+            });
+        </script>
     </div>
 </body>
 </html>
