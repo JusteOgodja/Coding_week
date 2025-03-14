@@ -1,0 +1,180 @@
+-e git+https://github.com/ML-for-B-E/logistic-regression-course.git@44dbdf6306b046da64af218c2b77229f9a726f11#egg=2_logistic_regression_course
+-e git+https://github.com/ML-for-B-E/Optimisation.git@bac43eaeee46c173749e1ac79d2bc236e2468c66#egg=3_Optimisation
+-e git+https://github.com/ML-for-B-E/k-means-course.git@ba026db50bc5b4a9426e47939e47c49e357ca4eb#egg=4_k_means_course
+-e git+https://github.com/ML-for-B-E/linear-regression-course.git@df90690a9e96212a74301c09cf520405b0c9982c#egg=5_linear_regression_course
+-e git+https://github.com/ML-for-B-E/decision_tree_course.git@2c71928a85cafbf42a3c1b46bc27b6183613a7b5#egg=6_decision_tree_course
+absl-py==2.1.0
+argon2-cffi @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/argon2_cffi-21.3.0-py3-none-any.whl
+argon2-cffi-bindings @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/argon2_cffi_bindings-21.2.0-cp36-abi3-win_amd64.whl
+asgiref==3.8.1
+asttokens @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/asttokens-2.0.5-py2.py3-none-any.whl
+astunparse==1.6.3
+atomicwrites==1.4.1
+attrs @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/attrs-22.1.0-py2.py3-none-any.whl
+backcall @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/backcall-0.2.0-py2.py3-none-any.whl
+beautifulsoup4 @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/beautifulsoup4-4.11.1-py3-none-any.whl
+black @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/black-22.6.0-cp39-cp39-win_amd64.whl
+bleach @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/bleach-5.0.1-py3-none-any.whl
+cachetools @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/cachetools-5.2.0-py3-none-any.whl
+catboost==1.2.7
+certifi @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/certifi-2022.6.15-py3-none-any.whl
+cffi @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/cffi-1.15.1-cp39-cp39-win_amd64.whl
+charset-normalizer @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/charset_normalizer-2.1.1-py3-none-any.whl
+click @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/click-8.1.3-py3-none-any.whl
+cloud-io @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/cloud_io-1.0.1-py3-none-any.whl
+cloudpickle==3.1.1
+colorama @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/colorama-0.4.6-py2.py3-none-any.whl
+cycler @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/cycler-0.12.1-py3-none-any.whl
+debugpy @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/debugpy-1.6.2-cp39-cp39-win_amd64.whl
+decision-tree-course==0.0.1
+decorator @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/decorator-5.1.1-py3-none-any.whl
+defusedxml @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/defusedxml-0.7.1-py2.py3-none-any.whl
+Django==4.2.20
+entrypoints @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/entrypoints-0.4-py3-none-any.whl
+et-xmlfile @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/et_xmlfile-1.1.0-py3-none-any.whl
+executing @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/executing-0.9.1-py2.py3-none-any.whl
+fastjsonschema @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/fastjsonschema-2.16.1-py3-none-any.whl
+flake8 @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/flake8-5.0.3-py2.py3-none-any.whl
+flatbuffers==24.3.25
+gast==0.6.0
+google-api-core @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/google_api_core-2.8.2-py3-none-any.whl
+google-auth @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/google_auth-2.11.0-py2.py3-none-any.whl
+google-cloud @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/google_cloud-0.34.0-py2.py3-none-any.whl
+google-cloud-core @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/google_cloud_core-2.3.2-py2.py3-none-any.whl
+google-cloud-storage @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/google_cloud_storage-2.5.0-py2.py3-none-any.whl
+google-crc32c @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/google_crc32c-1.3.0-cp39-cp39-win_amd64.whl
+google-pasta==0.2.0
+google-resumable-media @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/google_resumable_media-2.3.3-py2.py3-none-any.whl
+googleapis-common-protos @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/googleapis_common_protos-1.56.4-py2.py3-none-any.whl
+graphviz==0.20.3
+grpcio==1.65.4
+h5py==3.11.0
+idna @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/idna-3.3-py3-none-any.whl
+imbalanced-learn==0.12.4
+importlib_metadata==8.2.0
+iniconfig @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/iniconfig-1.1.1-py2.py3-none-any.whl
+ipykernel @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/ipykernel-6.15.1-py3-none-any.whl
+ipython @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/ipython-8.4.0-py3-none-any.whl
+ipython-genutils @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/ipython_genutils-0.2.0-py2.py3-none-any.whl
+ipywidgets @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/ipywidgets-7.7.1-py2.py3-none-any.whl
+jedi @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/jedi-0.18.1-py2.py3-none-any.whl
+Jinja2 @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/Jinja2-3.1.2-py3-none-any.whl
+joblib @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/joblib-1.4.2-py3-none-any.whl
+jsonschema @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/jsonschema-4.9.0-py3-none-any.whl
+jupyter @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/jupyter-1.0.0-py2.py3-none-any.whl
+jupyter-client @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/jupyter_client-7.3.4-py3-none-any.whl
+jupyter-console @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/jupyter_console-6.4.4-py3-none-any.whl
+jupyter-core @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/jupyter_core-4.11.1-py3-none-any.whl
+jupyterlab-pygments @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/jupyterlab_pygments-0.2.2-py2.py3-none-any.whl
+jupyterlab-widgets @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/jupyterlab_widgets-1.1.1-py3-none-any.whl
+k-means-course==0.0.1
+keras==3.4.1
+keras-tuner==1.4.7
+kiwisolver @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/kiwisolver-1.4.5-cp39-cp39-win_amd64.whl
+kt-legacy==1.0.5
+libclang==18.1.1
+lightgbm==4.6.0
+linear-regression-course==0.0.1
+llvmlite==0.43.0
+logistic-regression-course==0.0.1
+Markdown==3.6
+markdown-it-py==3.0.0
+MarkupSafe @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/MarkupSafe-2.1.1-cp39-cp39-win_amd64.whl
+matplotlib @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/matplotlib-3.4.2-cp39-cp39-win_amd64.whl
+matplotlib-inline @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/matplotlib_inline-0.1.3-py3-none-any.whl
+mccabe @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/mccabe-0.7.0-py2.py3-none-any.whl
+mdurl==0.1.2
+mistune @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/mistune-0.8.4-py2.py3-none-any.whl
+ml-dtypes==0.4.0
+mypy-extensions @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/mypy_extensions-0.4.3-py2.py3-none-any.whl
+namex==0.0.8
+narwhals==1.30.0
+nbclient @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/nbclient-0.6.6-py3-none-any.whl
+nbconvert @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/nbconvert-6.5.0-py3-none-any.whl
+nbformat @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/nbformat-5.4.0-py3-none-any.whl
+nest-asyncio @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/nest_asyncio-1.5.5-py3-none-any.whl
+notebook @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/notebook-6.4.12-py3-none-any.whl
+numba==0.60.0
+numpy==1.24.4
+openpyxl @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/openpyxl-3.1.5-py2.py3-none-any.whl
+opt-einsum==3.3.0
+Optimisation==0.0.1
+optree==0.12.1
+packaging @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/packaging-21.3-py3-none-any.whl
+pandas @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pandas-1.4.3-cp39-cp39-win_amd64.whl
+pandocfilters @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pandocfilters-1.5.0-py2.py3-none-any.whl
+parso @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/parso-0.8.3-py2.py3-none-any.whl
+pathspec @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pathspec-0.9.0-py2.py3-none-any.whl
+patsy @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/patsy-0.5.6-py2.py3-none-any.whl
+pep517 @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pep517-0.13.0-py3-none-any.whl
+pexpect @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pexpect-4.8.0-py2.py3-none-any.whl
+pickleshare @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pickleshare-0.7.5-py2.py3-none-any.whl
+pillow @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pillow-10.4.0-cp39-cp39-win_amd64.whl
+pip-tools @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pip_tools-6.6.0-py3-none-any.whl#sha256=66318bc2e884b61fafa1cb2cf01b35fdd779ab9ce82cc1bce277adb8cf3ab845
+platformdirs @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/platformdirs-2.5.2-py3-none-any.whl#sha256=027d8e83a2d7de06bbac4e5ef7e023c02b863d7ea5d079477e722bb41ab25788
+plotly==6.0.0
+pluggy @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pluggy-0.13.1-py2.py3-none-any.whl#sha256=966c145cd83c96502c3c3868f50408687b38434af77734af1e9ca461a4081d2d
+prometheus-client @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/prometheus_client-0.14.1-py3-none-any.whl#sha256=522fded625282822a89e2773452f42df14b5a8e84a86433e3f8a189c1d54dc01
+prompt-toolkit @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/prompt_toolkit-3.0.30-py3-none-any.whl#sha256=d8916d3f62a7b67ab353a952ce4ced6a1d2587dfe9ef8ebc30dd7c386751f289
+protobuf==4.25.4
+psutil @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/psutil-5.9.1-cp39-cp39-win_amd64.whl#sha256=f65f9a46d984b8cd9b3750c2bdb419b2996895b005aefa6cbaba9a143b1ce2c5
+ptyprocess @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/ptyprocess-0.7.0-py2.py3-none-any.whl#sha256=4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35
+pure-eval @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pure_eval-0.2.2-py3-none-any.whl#sha256=01eaab343580944bc56080ebe0a674b39ec44a945e6d09ba7db3cb8cec289350
+py @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/py-1.11.0-py2.py3-none-any.whl#sha256=607c53218732647dff4acdfcd50cb62615cedf612e72d1724fb1a0cc6405b378
+pyasn1 @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pyasn1-0.4.8-py2.py3-none-any.whl#sha256=39c7e2ec30515947ff4e87fb6f456dfc6e84857d34be479c9d4a4ba4bf46aa5d
+pyasn1-modules @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pyasn1_modules-0.2.8-py2.py3-none-any.whl#sha256=a50b808ffeb97cb3601dd25981f6b016cbb3d31fbf57a8b8a87428e6158d0c74
+pycodestyle @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pycodestyle-2.9.0-py2.py3-none-any.whl#sha256=289cdc0969d589d90752582bef6dff57c5fbc6949ee8b013ad6d6449a8ae9437
+pycparser @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pycparser-2.21-py2.py3-none-any.whl#sha256=8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9
+pyflakes @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pyflakes-2.5.0-py2.py3-none-any.whl#sha256=4579f67d887f804e67edb544428f264b7b24f435b263c4614f384135cea553d2
+Pygments==2.18.0
+pyparsing @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pyparsing-3.0.9-py3-none-any.whl#sha256=5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc
+pyrsistent @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pyrsistent-0.18.1-cp39-cp39-win_amd64.whl#sha256=e24a828f57e0c337c8d8bb9f6b12f09dfdf0273da25fda9e314f0b684b415a07
+pytest @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pytest-6.2.4-py3-none-any.whl#sha256=91ef2131a9bd6be8f76f1f08eac5c5317221d6ad1e143ae03894b862e8976890
+python-dateutil @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/python_dateutil-2.8.2-py2.py3-none-any.whl#sha256=961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9
+pytz @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pytz-2022.1-py2.py3-none-any.whl#sha256=e68985985296d9a66a881eb3193b0906246245294a881e7c8afe623866ac6a5c
+pywin32 @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pywin32-306-cp39-cp39-win_amd64.whl#sha256=39b61c15272833b5c329a2989999dcae836b1eed650252ab1b7bfbe1d59f30f4
+pywinpty @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pywinpty-2.0.13-cp39-none-win_amd64.whl#sha256=71cb613a9ee24174730ac7ae439fd179ca34ccb8c5349e8d7b72ab5dea2c6f4b
+pyzmq @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/pyzmq-23.2.0-cp39-cp39-win_amd64.whl#sha256=83005d8928f8a5cebcfb33af3bfb84b1ad65d882b899141a331cc5d07d89f093
+qtconsole @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/qtconsole-5.3.1-py3-none-any.whl#sha256=d364592d7ede3257f1e17fcdbfd339c26e2cc638ca4fa4ee56a724e26ea13c81
+QtPy @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/QtPy-2.1.0-py3-none-any.whl#sha256=aee0586081f943029312becece9f63977b0a9e3788f77a6ac8cc74802bb173d6
+requests @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/requests-2.28.1-py3-none-any.whl#sha256=8fefa2a1a1365bf5520aac41836fbee479da67864514bdb821f31ce07ce65349
+rich==13.7.1
+rsa @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/rsa-4.9-py3-none-any.whl#sha256=90260d9058e514786967344d0ef75fa8727eed8a7d2e43ce9f4bcf1b536174f7
+scikit-learn==1.6.1
+scipy @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/scipy-1.9.1-cp39-cp39-win_amd64.whl#sha256=90c805f30c46cf60f1e76e947574f02954d25e3bb1e97aa8a07bc53aa31cf7d1
+seaborn @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/seaborn-0.11.2-py3-none-any.whl#sha256=85a6baa9b55f81a0623abddc4a26b334653ff4c6b18c418361de19dbba0ef283
+Send2Trash @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/Send2Trash-1.8.0-py3-none-any.whl#sha256=f20eaadfdb517eaca5ce077640cb261c7d2698385a6a0f072a4a5447fd49fa08
+shap==0.47.0
+six @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/six-1.16.0-py2.py3-none-any.whl#sha256=8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254
+slicer==0.0.8
+soupsieve @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/soupsieve-2.3.2.post1-py3-none-any.whl#sha256=3b2503d3c7084a42b1ebd08116e5f81aadfaea95863628c80a3b774a11b7c759
+sqlparse==0.5.3
+stack-data @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/stack_data-0.3.0-py3-none-any.whl#sha256=aa1d52d14d09c7a9a12bb740e6bdfffe0f5e8f4f9218d85e7c73a8c37f7ae38d
+statsmodels @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/statsmodels-0.14.0-cp39-cp39-win_amd64.whl#sha256=8d1e3e10dfbfcd58119ba5a4d3c7d519182b970a2aebaf0b6f539f55ae16058d
+tensorboard==2.17.0
+tensorboard-data-server==0.7.2
+tensorflow==2.17.0
+tensorflow-intel==2.17.0
+tensorflow-io-gcs-filesystem==0.31.0
+termcolor==2.4.0
+terminado @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/terminado-0.15.0-py3-none-any.whl#sha256=0d5f126fbfdb5887b25ae7d9d07b0d716b1cc0ccaacc71c1f3c14d228e065197
+testbook @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/testbook-0.4.2-py3-none-any.whl#sha256=21e03818017d1315607e117c101cf4b5f5b6dcd5ead77eab65ac9508a281f644
+testing-tools @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/testing_tools-1.0.3-py3-none-any.whl#sha256=331310dadd923a87c2702819893ed2966416c5535be889ec8470151aa3f9e9d5
+threadpoolctl @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/threadpoolctl-3.5.0-py3-none-any.whl#sha256=56c1e26c150397e58c4926da8eeee87533b1e32bef131bd4bf6a2f45f3185467
+tinycss2 @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/tinycss2-1.1.1-py3-none-any.whl#sha256=fe794ceaadfe3cf3e686b22155d0da5780dd0e273471a51846d0a02bc204fec8
+toml @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/toml-0.10.2-py2.py3-none-any.whl#sha256=806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b
+tomli @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/tomli-2.0.1-py3-none-any.whl#sha256=939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc
+tornado @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/tornado-6.2-cp37-abi3-win_amd64.whl#sha256=e5f923aa6a47e133d1cf87d60700889d7eae68988704e20c75fb2d65677a8e4b
+tqdm @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/tqdm-4.64.0-py2.py3-none-any.whl#sha256=74a2cdefe14d11442cedf3ba4e21a3b84ff9a2dbdc6cfae2c34addb2a14a5ea6
+traitlets @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/traitlets-5.3.0-py3-none-any.whl#sha256=65fa18961659635933100db8ca120ef6220555286949774b9cfc106f941d1c7a
+typing_extensions==4.12.2
+tzdata==2025.1
+ucimlrepo==0.0.7
+urllib3 @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/urllib3-1.26.11-py2.py3-none-any.whl#sha256=c33ccba33c819596124764c23a97d25f32b28433ba0dedeb77d873a38722c9bc
+wcwidth @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/wcwidth-0.2.5-py2.py3-none-any.whl#sha256=beb4802a9cebb9144e99086eff703a642a13d6a0052920003a230f3294bbe784
+webencodings @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/webencodings-0.5.1-py2.py3-none-any.whl#sha256=a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78
+Werkzeug==3.0.3
+widgetsnbextension @ file:///C:/Users/hp/Desktop/USB/packages_env_ml_courses/widgetsnbextension-3.6.1-py2.py3-none-any.whl#sha256=954e0faefdd414e4e013f17dbc7fd86f24cf1d243a3ac85d5f0fc2c2d2b50c66
+wrapt==1.16.0
+xgboost==2.1.4
+zipp==3.19.2
