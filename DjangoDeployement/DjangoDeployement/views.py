@@ -1,6 +1,6 @@
-from django.http import HttpResponse
-from django.shortcuts import render
 import joblib
+from django.shortcuts import render
+from django.http import HttpResponse
 
 def home(request):
     return render(request, "home.html")
@@ -11,9 +11,12 @@ def prediction(request):
 def result(request):
     try:
         # Charger le modèle
-        cls = joblib.load('catboost_model.sav')
-        
-        # Récupérer les données du formulaire et convertir en float/int
+        cls = joblib.load('catboost_model.sav')  # Assure-toi que c'est bien un modèle CatBoost
+
+        # Charger le scaler utilisé lors de l'entraînement
+        scaler = joblib.load('scaler.pkl')  # Remplace par le vrai nom du fichier scaler
+
+        # Récupérer les données du formulaire et les convertir
         lis = [
             int(request.GET['gender']),
             float(request.GET['age']),
@@ -24,16 +27,16 @@ def result(request):
             int(request.GET['faf']),
             int(request.GET['calc']),
             int(request.GET['mtrans']),
-            float(request.GET['weight']) / float(request.GET['height']) ** 2,
         ]
 
-        print("Données reçues :", lis)
+        # Convertir la liste en un tableau 2D pour le scaler
+        X_new_scaled = scaler.transform([lis])  # 🔥 Corrigé ici
+
+        print("Données normalisées :", X_new_scaled)
 
         # Faire la prédiction
-        ans = cls.predict([lis])
-        predicted_value = int(ans) if isinstance(ans, (int, float)) else ans[0]
-
-
+        ans = cls.predict(X_new_scaled)
+        predicted_value = int(ans[0]) if isinstance(ans[0], (int, float)) else ans[0]
 
         print("Valeur prédite :", predicted_value)
 
