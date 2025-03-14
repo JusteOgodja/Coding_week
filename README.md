@@ -3,7 +3,30 @@
 ## **Objectif du Projet**  
 Ce projet vise à développer un outil d’aide à la décision médicale permettant d’évaluer le risque d’obésité chez les patients à l’aide de modèles de machine learning explicables (SHAP). L’objectif est de fournir aux professionnels de santé un système précis, interprétable et efficace.  
 
+## **Pour Exécuter le projet**
 
+```
+git clone https://github.com/OrensObenas/Coding_week.git
+```
+
+*Pour lancer le projet en local*
+
+```
+cd Coding_week
+```
+```
+pip freeze > requirements.txt
+```
+NB: Dans le cas le requierement ne marche pas, veuillez à créer un environnement virtuel et ajouter avec tout les modules nécessaire pour le machine learning et le module django
+```
+pip install -r requirements.txt
+```
+```
+cd DjangoDeployement
+```
+```
+python manage.py runserver
+```
 
 ## **Prétraitement des Données**  
 
