@@ -17,7 +17,7 @@ cd Coding_week
 ```
 pip freeze > requirements.txt
 ```
-NB: Dans le cas le requierement ne marche pas, veuillez à créer un environnement virtuel et ajouter avec tout les modules nécessaire pour le machine learning et le module django
+NB: Dans le cas le requirement ne marche pas, veuillez à créer un environnement virtuel et ajouter tout les modules nécessaire pour le machine learning et django
 ```
 pip install -r requirements.txt
 ```
