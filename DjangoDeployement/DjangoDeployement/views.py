@@ -8,6 +8,9 @@ def home(request):
 def prediction(request):
     return render(request, "prediction.html")
 
+def about(request):
+    return render(request, "about.html")
+
 def result(request):
     try:
         # Charger le modèle
@@ -31,6 +34,7 @@ def result(request):
 
         # Convertir la liste en un tableau 2D pour le scaler
         X_new_scaled = scaler.transform([lis])  # 🔥 Corrigé ici
+        
 
         print("Données normalisées :", X_new_scaled)
 

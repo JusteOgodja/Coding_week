@@ -181,3 +181,8 @@ section .imagePart img{
     font-size: 18px;
     font-weight: bold;
 }
+/* About page */
+.about-container{
+    height: 82vh;
+    width: 500px;
+}

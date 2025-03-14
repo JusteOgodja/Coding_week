@@ -16,7 +16,7 @@
                 <li><a href="{% url 'home' %}">HOME</a></li>
                 <li><a href="{% url 'prediction' %}">PREDICTION</a></li>
                 <li><a href="{% url 'result' %}">RESULTAT</a></li>
-                <li><a href="">ABOUT</a></li>
+                <li><a href="{% url 'about' %}">ABOUT</a></li>
             </ul>
         </nav>
         <div class="result-container">
@@ -26,7 +26,6 @@
             {% else %}
                 <p>Aucune prédiction disponible.</p>
             {% endif %}
-        
         </div>
     </div>
 </body>
