@@ -130,3 +130,4 @@ websocket-client==1.8.0
 widgetsnbextension==4.0.13
 xgboost==2.1.4
 zipp==3.21.0
+django
