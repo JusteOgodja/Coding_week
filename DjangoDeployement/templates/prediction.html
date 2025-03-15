@@ -25,7 +25,12 @@
                     {% csrf_token %}
                     <div>
                         <label>Age:</label>
-                        <input type="number" id="age" name="age" required>
+                        <input 
+                            type="number" 
+                            id="age" 
+                            name="age" 
+                            placeholder="18"
+                        required>
                     </div>
                     <div>
                         <label>Gender:</label>
@@ -36,11 +41,18 @@
                     </div>
                     <div>
                         <label>Height (m):</label>
-                        <input type="number" id="height" name="height" step="0.01" required>
+                        <input 
+                            type="number" 
+                            id="height" 
+                            name="height" 
+                            step="0.01" 
+                            placeholder="1.80"
+                        required>
                     </div>
                     <div>
                         <label>Weight (kg):</label>
-                        <input type="number" id="weight" name="weight" step="0.1" required>
+                        <input type="number" id="weight" name="weight" step="0.1" placeholder="70"
+                        required>
                     </div>
                     <div>
                         <label>Family History with Overweight:</label>
@@ -50,7 +62,7 @@
                         </select>
                     </div>
                     <div>
-                        <label>CAEC:</label>
+                        <label>Do you eat any food between meals?:</label>
                         <select id="caec" name="caec">
                             <option value="0">Always</option>
                             <option value="1">Frequently</option>
@@ -59,11 +71,12 @@
                         </select>
                     </div>
                     <div>
-                        <label>FAF (Physical Activity Frequency):</label>
-                        <input type="number" id="faf" name="faf" required>
+                        <label>Physical Activity Frequency:</label>
+                        <input type="number" id="faf" name="faf" placeholder="3"
+                        required>
                     </div>
                     <div>
-                        <label>CALC (Alcohol Consumption):</label>
+                        <label>Alcohol Consumption:</label>
                         <select id="calc" name="calc">
                             <option value="0">Always</option>
                             <option value="1">Frequently</option>
@@ -72,7 +85,7 @@
                         </select>
                     </div>
                     <div>
-                        <label>MTRANS (Mode of Transportation):</label>
+                        <label>Mode of Transportation:</label>
                         <select id="mtrans" name="mtrans">
                             <option value="0">Automobile</option>
                             <option value="1">Bike</option>

@@ -20,11 +20,16 @@
             </ul>
         </nav>
         <div class="result-container">
-            <h2>Résultat de la Prédiction</h2>
+            <h2>
+                Prediction Result
+            </h2>
             {% if prediction != "Inconnu" %}
-                <p>Type d'obésité prédit : {{ obesity_type }}</p>
+                <p>
+                    Predicted Obesity Type :{{ obesity_type }}</p>
             {% else %}
-                <p>Aucune prédiction disponible.</p>
+                <p>
+                    No prediction available.
+                </p>
             {% endif %}
         </div>
         <div class="circle-container">

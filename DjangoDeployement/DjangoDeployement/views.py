@@ -12,13 +12,13 @@ def prediction(request):
 
 def about(request):
     context = {
-        "team_members":{
-            "OGODJA Juste": "Responsable documentation"
-            , "KOUYELE Ashley": "Responsable exploration de la data"
-            , "MOROU Dine": "Responsable Traitement des données"
-            , "LOFO Carine": "Responsable entrainement des modèles"
-            , "OBENAS Orens": "Responsable intégration modèles"
-            }
+       "team_members": {
+            "OGODJA Juste": "Documentation Manager",
+            "KOUYELE Ashley": "Data Exploration Manager",
+            "MOROU salahou":"Data processing Manager",
+            "LOFO Carine": "Model Training Manager",
+            "OBENAS Orens": "Model Integration Manager"
+        }
     }
     return render(request, "about.html", context)
 
