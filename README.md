@@ -25,7 +25,27 @@ cd DjangoDeployement
 python manage.py runserver
 ```
 ---
+# Interface
 
+## Accueil
+Bienvenue sur notre plateforme de classification de l'obésité ! Cette application utilise des modèles d'intelligence artificielle pour analyser vos habitudes alimentaires, votre activité physique et d'autres facteurs liés à votre mode de vie afin d'estimer votre niveau d'obésité. Notre objectif est de vous fournir une analyse claire et détaillée, vous permettant ainsi de mieux comprendre votre profil et d'explorer les pistes d'amélioration possibles.
+
+
+<img src="reports/figures/home.jpg" alt="Logo" width="2000">
+
+## Page de Prédiction
+Sur cette page, vous pouvez renseigner vos informations personnelles et vos habitudes de vie afin d'obtenir une estimation de votre niveau d'obésité. Grâce à des algorithmes de classification avancés, notre modèle analysera vos données et vous fournira une prédiction personnalisée. Remplissez le formulaire avec précision pour des résultats optimaux.
+<img src="reports/figures/predict_page.jpg" alt="Logo" width="2000">
+
+## Page du résultat des prédictions
+Voici votre analyse personnalisée ! Notre modèle a évalué vos données et a déterminé votre catégorie d'obésité en fonction des tendances observées dans les données d'entraînement. 
+<img src="reports/figures/result_page.jpg" alt="Logo" width="2000">
+
+## ABOUT
+ 
+<img src="reports/figures/about.jpg" alt="Logo" width="2000">
+
+---
 ## Classification de l'obésité
 
 ### Objectif
@@ -523,4 +543,5 @@ Nous avons exploité le **prompt engineering** pour optimiser l’analyse des do
 1. **Optimisation de la gestion de la mémoire** → Génération d’une fonction d’optimisation automatique des types de données.  
 2. **Détection des outliers** → Génération d’un script efficace basé sur l’IQR et le Boxplot via un prompt dédié.  
 3. **Interprétation avec SHAP** → Création de visualisations claires et explicites des résultats SHAP grâce à des prompts bien conçus.  
+
 ---
